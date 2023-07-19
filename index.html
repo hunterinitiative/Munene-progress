@@ -3,9 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Revolutionaly web</title>
+
+    <style>
+        .body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .vr {
+            background-image: url('/images/vr.jpeg');
+        }
+    </style>
+
 </head>
 <body>
-    
+    <main class="body">
+        <section>
+            <nav class="flex items-center justify-between p-6">
+                <!-- LOGO -->
+                <div class="">
+                    <p class="font-extrabold text-xl">THI</p>
+                </div>
+
+                <!-- LINKS -->
+                <div class="">
+                    <ul class="flex  items-center font-bold">
+                        <li><a href="/home" class="text-blue-600 ml-6">Home</a></li>
+                        <li><a href="/about" class="text-gray-500 ml-6">Features</a></li>
+                        <li><a href="/pricing" class="text-gray-500 ml-6">Pricing</a></li>
+                        <li><a href="/about" class="text-gray-500 ml-6">About</a></li>
+                    </ul>
+                </div>
+
+                <!-- nav_rght -->
+                <div class="bg-gray-200 px-4 py-2 rounded">
+                    <p class="text-sm text-gray-500">Contact Sales</p>
+                </div>
+            </nav>
+        </section>
+
+        <!-- hero section -->
+        <section class="px-6">
+            <div class="bg-gradient-to-l from-indigo-600 to-indigo-500 rounded h-screen">
+                <!-- content -->
+                <div class="flex justify-center items-center h-screen w-screen">
+                    <div class="text-center">
+                        <p class="py-4 text-white">Very proud to introduce</p>
+                        <p class="text-6xl font-bold text-white">Revolutionaly way <br> to build the web</p>
+
+                        <!-- buttons -->
+                        <div class="flex justify-center pt-4">
+                            <div class="bg-indigo-700 rounded">
+                                <p class="p-3 text-white">Start now</p>
+                            </div>
+                            <div class="bg-gray-200 ml-6 rounded">
+                                <p class="p-3">Take tour</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GALLERY -->
+        <section class="px-6 h-screen py-12">
+            <div>
+                <!-- title -->
+                <p class="font-bold text-xl text-gray-500 text-center">Gallery</p>
+
+                <!-- cards -->
+                <div class="flex items-center justify-center mt-8">
+
+                    <!-- grid -->
+                    <div class="grid grid-cols-4 gap-5">
+
+                        <!-- 1st card -->
+                        <div class="group relative items-center justify-center overflow-hidden cursor-pointer rounded">
+                            <div class="h-96 w-72">
+                                <img class="h-full w-full" src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHZyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60">
+                            </div>
+                            <div class="absolute inset-0 translate-y-[90%]">
+                                <p class="text-xl text-white px-2">VR</p>
+                            </div>
+                        </div>
+
+                        <!-- 2nd Card -->
+                        <div class="group relative items-center justify-center overflow-hidden cursor-pointer">
+                            <div class="h-96 w-72">
+                                <img class="h-full w-full" src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHZyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60">
+                            </div>
+                            <div class="absolute inset-0 translate-y-[90%]">
+                                <p class="text-xl text-white px-2">Tech</p>
+                            </div>
+                        </div>
+
+                        <!-- 3rd Card -->
+                        <div class="group relative items-center justify-center overflow-hidden cursor-pointer">
+                            <div class="h-96 w-72">
+                                <img class="h-full w-full" src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHZyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60">
+                            </div>
+                            <div class="absolute inset-0 translate-y-[90%]">
+                                <p class="text-xl text-white px-2">Dev</p>
+                            </div>
+                        </div>
+
+                        <!-- 4th card -->
+                        <div class="group relative items-center justify-center overflow-hidden cursor-pointer">
+                            <div class="h-96 w-72">
+                                <img class="h-full w-full" src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHZyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60">
+                            </div>
+                            <div class="absolute inset-0 translate-y-[90%]">
+                                <p class="text-xl text-white px-2">Retro</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- bottom content -->
+                <div class="flex items-center justify-between mt-10">
+                    <div class="w-2/4">
+                        <p class="text-gray-500">This is a section of some simple filter text also known also placeholder text. It shares some characteristics of a real written text.</p>
+                    </div>
+                    <div class="border rounded">
+                        <p class="text-gray-500 px-6 py-2">More</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
 </body>
 </html>
